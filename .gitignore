@@ -1,0 +1,52 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Ignore compiled files and caches
+*.out
+*.o
+*.pyc
+*.pyo
+*.pyd
+*.class
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Docker and environment files
+docker-compose.override.yml
+.env
+
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore other files
+*.bak
+*.tmp
+*.old
+*.orig
